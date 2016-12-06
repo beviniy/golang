@@ -35,4 +35,7 @@ func main() {
 	}
 	h := make(map[int]int)
 	fmt.Println(h[1])
+	// i := 1
+	// j := 1.0
+	fmt.Println(100 / 3)
 }
