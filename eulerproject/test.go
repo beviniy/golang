@@ -9,6 +9,7 @@ package main
 import "fmt"
 import "math"
 import "reflect"
+import "strconv"
 
 func main() {
 	a := 1
@@ -38,4 +39,7 @@ func main() {
 	// i := 1
 	// j := 1.0
 	fmt.Println(100 / 3)
+
+	ss := "08 10"
+	fmt.Println(strconv.Atoi(ss))
 }
